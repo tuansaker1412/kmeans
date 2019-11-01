@@ -3,7 +3,7 @@ K-means clustering ruby
 
 Build gem: gem build kmeans.gemspec
 
-Install gem: gem install ./kmeans-0.0.1.gem
+Install gem: gem install ./nt_kmeans-0.0.1.gem
 
 example:
 
