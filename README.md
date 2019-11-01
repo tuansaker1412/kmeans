@@ -10,3 +10,5 @@ use irb
 2.3.8 :002 > Kmeans.run k, data
 
 ```
+k: integer
+data: array
