@@ -11,10 +11,12 @@ example:
 use irb
 2.3.8 :001 > require 'kmeans'
  => true
-2.3.8 :002 > Kmeans.run k, data
-
+2.3.8 :002 > result = Kmeans.run k, data
+result: array
+result[0]: list centers
+result[1]: data cluster sort by centers
 ```
 
-k: integer
+k: (integer) number Cluster
 
-data: array
+data: (array) list Data
